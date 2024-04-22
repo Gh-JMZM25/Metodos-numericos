@@ -19,7 +19,6 @@ from scipy.special import roots_legendre
 #    - x_i son los nodos de integración
 #    - w_i son los pesos asociados a los nodos de integración
 
-# Paso 1: Define tu función en forma de texto.
 String = "f(x) = e^(x^2)"
 
 # Paso 2: Define la función
@@ -27,31 +26,28 @@ String = "f(x) = e^(x^2)"
 def f(x):
     return np.exp(x**2)
 
-# Paso 3: Define los límites de integración y el número de nodos
+# 1.1 Determinar puntos de gauss
 
 a, b = 0.2, 1.2
 n = 2
 
-# Función para calcular los nodos y pesos de Gauss-Legendre
+# 1.2 Determinar los pesos y nodos
 
 def gauss_legendre_nodes_weights(n):
     nodes, weights = roots_legendre(n)
     return nodes, weights
 
-# Función para la cuadratura Gaussiana con nodos y pesos de Gauss-Legendre
 
 def cuadratura_gaussiana():
-    # Calcula los nodos y pesos de Gauss-Legendre
     x, w = gauss_legendre_nodes_weights(n)
 
     # Aplica la fórmula de Cuadratura Gaussiana
     integral = sum(w * f((b-a)/2 * x + (a+b)/2))
 
-    # Ajusta la integral al intervalo [a, b]
+    # Calculo del valor [a, b]
     integral *= (b-a)/2
     return integral
 
-# Aplicación del método
 resultado_cuadratura_gaussiana = cuadratura_gaussiana()
 
 # Resultados
