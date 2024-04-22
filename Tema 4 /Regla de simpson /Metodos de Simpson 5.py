@@ -22,18 +22,21 @@ import numpy as np
 #    - ( a ) y ( b ): Extremos del intervalo de integración.
 #    - ( n ): Número de subintervalos en los que se divide el intervalo.
 
-# Paso 1: Define tu función en forma de texto.
+
 String = "(-x^2 + 8x - 12)"
 
 # Paso 2: Definir la función
 def f(x):
     return -x**2+8*x-12
 
+#Dar intervalos [a,b] y n.
 a, b = 3, 5
 n = 2
 
-def simpson(a, b, n):
+#Aplicacion de la formula
+def simpson(a, b, n)
 
+#Si la función es altamente oscilatoria o carece de derivados en ciertos puntos, se puede usar la regla compuesta de Simpson dividiendo el intervalo en subintervalos pequeños y aplicando la regla de Simpson a cada uno.
     h = (b - a) / n
     suma = f(a) + f(b)
     for i in range(1, n, 2):
@@ -42,7 +45,7 @@ def simpson(a, b, n):
         suma += 2 * f(a + i * h)
     return (h / 3) * suma
 
-# Aplicación del método
+
 resultado_simpson = simpson(a, b, n)
 
 # Resultados
