@@ -10,7 +10,6 @@ La cuadratura de Gauss es un método numérico utilizado para aproximar la integ
 3. Calcular el valor aproximado de la integral como la suma ponderada de los valores de la función en los puntos de Gauss, utilizando los pesos correspondientes.
 
 
-## Ejemplos de implementacion.
 
 
 
