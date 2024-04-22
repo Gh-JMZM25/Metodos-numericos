@@ -31,18 +31,19 @@ a, b = 3, 5
 # Determinar numero de intervalos
 n = 2
 
-# Calcular ancho de los intervalos
 def DeltaX(a, b, n):
+    # Calcular ancho de los intervalos
     h = (b - a) / n
+    
+    # Aplicacion de la formula 
     suma = (f(a) + f(b)) / 2
 
-# Aplicacion de la formula y suma de todas las areas
+#suma de todas las areas
 
     for i in range(1, n):
         suma += f(a + i * h)
     return h * suma
 
-# Aplicación de los métodos
 resultado_trapecio = DeltaX(a, b, n)
 
 
