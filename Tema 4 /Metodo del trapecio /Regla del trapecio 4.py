@@ -20,27 +20,29 @@
 
 import numpy as np
 
-# Paso 1: Define tu función en forma de texto.
 String = "f(x) = e^(x^2)"
 
-# Paso 2: Definir atributos para la función, parámetros a, b y n.
+# Definir funcion.
 def f(x):
     return np.exp(x**2)
 
+# Establecer limites de integracion
 a, b = 0, 1
 n = 5
 
-# Paso 3: Definir DeltaX
 def DeltaX(a, b, n):
+    # Calcular ancho de los intervalos
     h = (b - a) / n
+    
+    # Aplicacion de la formula
     suma = (f(a) + f(b)) / 2
-# Paso 4: Funcion evaluada en un ranga desde 1 a n
+    
+# Suma de todas las areas
 
     for i in range(1, n):
         suma += f(a + i * h)
     return h * suma
 
-# Aplicación de los métodos
 resultado_trapecio = DeltaX(a, b, n)
 
 
