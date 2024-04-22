@@ -14,6 +14,3 @@ La regla de Simpson es un método de integración numérica que se utiliza para 
 
 
 
-## Ejemplos de implementacion.
-
-
