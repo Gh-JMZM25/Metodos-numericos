@@ -19,7 +19,6 @@
 #    - f(m): punto intermedio se calcula con: (a+b)/2.
 #    - ( DeltaX o h): Funcion evaluada (b-a)/n
 
-# Pasos:
 # Define la función que deseas integrar.
 String = "f(x) = ∫ x^3 dx  en los puntos a:0   &   b: 5"
 
