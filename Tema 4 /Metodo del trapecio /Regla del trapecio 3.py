@@ -20,21 +20,23 @@
 
 import numpy as np
 
-# Paso 1: Define tu función en forma de texto.
 String = "(-x^2 + 8x - 12)"
 
-# Paso 2: Definir la función
+# Definir la función
 def f(x):
     return -x**2+8*x-12
-
+# Establecer limites de integracion
 a, b = 3, 5
+
+# Determinar numero de intervalos
 n = 2
 
-# Paso 3: Definir DeltaX
+# Calcular ancho de los intervalos
 def DeltaX(a, b, n):
     h = (b - a) / n
     suma = (f(a) + f(b)) / 2
-# Paso 4: Funcion evaluada en un ranga desde 1 a n
+
+# Aplicacion de la formula y suma de todas las areas
 
     for i in range(1, n):
         suma += f(a + i * h)
