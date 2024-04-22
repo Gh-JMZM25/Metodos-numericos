@@ -21,15 +21,15 @@ String = "f(x) = ∫x^3+6x^2+11x-6 dx  en los puntos a:1.3   &   b: 1.8"
 def f(x):
     return x**3 + 6*x**2 + 11*x - 6
 
-# 2) Definir puntos a y b
+# 2) Definir limites y numero de intervalos n = 1
 a , b = 1.3, 1.8
 
 # 3) Implementacion de la formula
 
-# 3.1) realizar la diferencia de b-a
+# 3.1) calculo del ancho
 def deltax():
     return b - a
-# 3.2) Realizar la suma de las funciones evaluadas en punto "a" y "b" y enseguida dividirlas entre 2
+# Aplicacion de la formula
 def Suma():
     return (f(a) + f(b)) / 2
 
