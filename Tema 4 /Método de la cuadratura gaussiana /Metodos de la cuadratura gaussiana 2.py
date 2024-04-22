@@ -1,4 +1,4 @@
-import numpy as np
+}import numpy as np
 
 def f(x):
    """
@@ -14,7 +14,7 @@ b = 1
 x = np.array([np.sqrt(1/3), -np.sqrt(1/3)])
 w = np.array([1, 1])
 
-# Cambio de variable
+# Cambio de variable para ajustar el intervalo de integración
 u = (b - a) * x / 2 + (a + b) / 2
 
 # Calcular la integral aproximada utilizando la cuadratura gaussiana
