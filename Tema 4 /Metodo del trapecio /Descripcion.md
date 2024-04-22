@@ -14,5 +14,4 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 6. Sumar todas las áreas de los trapecios para obtener la aproximación final de la integral.
 
 
-## Ejemplos de implementacion.
 
