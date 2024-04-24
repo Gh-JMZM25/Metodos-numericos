@@ -7,6 +7,3 @@
 ### Hernandez Gallegos Jose de Jesus - 22030223.
 ### Rocha Domínguez José Manuel - 20030216.
 ### Zárate Morales José Miguel – 22030077.
-
-![Evidencia 1]{1.jpg}
-
