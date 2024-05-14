@@ -1,1 +1,34 @@
+**COMPETENCIA DE LA ASIGNATURA**
+
+Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando
+la computadora.
+
+**COMPETENCIA DEL TEMA**
+        
+Aplica los tipos de errores para identificar la incertidumbre y limitaciones de los cálculos numéricos en una computadora 
+
+**TEMARIO**
+
+     1. Introducción a los métodos numéricos 
+     1.1 Importancia de los métodos numéricos. 
+     1.2 Conceptos básicos: cifra significativa, precisión, exactitud, incertidumbre y sesgo. 
+     1.3 Tipos de errores. 
+     1.4 Software de cómputo numérico. 
+     1.5 Métodos iterativos.
+
+
+**ACTIVIDADES DE APRENDIZAJE: **
+
+   Investigar los errores comunes cuando se utiliza una computadora para cálculos numéricos. Hacer
+   un mapa o un esquema. 
+
+   Estimar los rangos de error en problemas propuestos. Escribir en el cuaderno los
+   problemas y sus rango de error 
+
+   Evaluar ejercicios con programas para determinar la precisión, el error absoluto y el
+   error relativo. 
+
+   Desarrollo de ejercicios que involucren cálculos numéricos para solución de problemas
+   matemáticos aplicando diferentes aproximaciones y definiendo el límite de estas
+   para minimizar errores.  
 
