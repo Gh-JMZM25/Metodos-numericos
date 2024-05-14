@@ -1,4 +1,4 @@
-**METODO DE LA INTERPOLACIÓN**
+***METODO DE LA INTERPOLACIÓN***
 
 La interpolación construye nuevos puntos de predicción a partir de un conjunto discreto de datos conocidos. 
 Existen muchos tipos de interpolación, tales como interpolación por el vecino más próximo (constante por 
