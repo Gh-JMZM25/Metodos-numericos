@@ -1,4 +1,0 @@
-# METODO DE LA INTERPOLACIÓN
-
-La interpolación construye nuevos puntos de predicción a partir de un conjunto discreto de datos conocidos.Existen muchos tipos de interpolación, tales como interpolación por el vecino más próximo (constante por partes), lineal, polinomial, splines cúbicos, y splines base. En la interpolación, los datos proporcionan la forma de la función aproximada, con ecuaciones polinómicas por partes o de orden superior para coincidir exactamente con los puntos de datos en esas ubicaciones discretas dadas.
-
